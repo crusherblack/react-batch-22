@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #c42424;
+}
+
+.my-title {
+  color: blue;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-color);
+  height: 80px;
+  padding: 0 7.7%;
+}
+
+.icon {
+  height: 45px;
+  width: 65px;
+}
+
+.hero-container {
+  background: yellow;
+  height: 720px;
+}

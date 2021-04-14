@@ -1,48 +1,11 @@
 import { useState, useEffect } from "react";
 import { Button, Modal, Row, Col } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
+import products from "../fakeData/products.json";
 
 const Home = () => {
   const router = useHistory();
   const [isVisible, setIsVisible] = useState(false);
-  const products = [
-    {
-      id: 1,
-      title: "Sepatu",
-    },
-    {
-      id: 2,
-      title: "Baju",
-    },
-    {
-      id: 3,
-      title: "Celana",
-    },
-    {
-      id: 4,
-      title: "Jaket",
-    },
-    {
-      id: 5,
-      title: "Kacamata",
-    },
-    {
-      id: 6,
-      title: "Jam Tangan",
-    },
-    {
-      id: 7,
-      title: "Kacamata",
-    },
-    {
-      id: 8,
-      title: "Jam Tangan",
-    },
-    {
-      id: 8,
-      title: "Jam Tangan",
-    },
-  ];
 
   return (
     <>

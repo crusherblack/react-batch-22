@@ -30,3 +30,9 @@ body {
   background: yellow;
   height: 720px;
 }
+
+.bg-merah {
+  background: var(--primary-color);
+  border: none;
+  height: 40px;
+}

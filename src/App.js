@@ -13,23 +13,21 @@ function Modal({ isVisible }) {
   }, []);
 
   return (
-    isVisible && (
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "200px",
-          height: "200px",
-          borderRadius: "5px",
-          background: "red",
-          color: "white",
-          textAlign: "center",
-        }}
-      >
-        <h3>INI ADALAH MODAL</h3>
-      </div>
-    )
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "200px",
+        height: "200px",
+        borderRadius: "5px",
+        background: "red",
+        color: "white",
+        textAlign: "center",
+      }}
+    >
+      <h3>INI ADALAH MODAL</h3>
+    </div>
   );
 }
 
@@ -55,6 +53,7 @@ function App() {
 
   //componentWillUnmount
   useEffect(() => {
+    //cleanUpFunction
     return () => {
       console.log("saya terhapus");
     };
@@ -72,7 +71,7 @@ function App() {
           flexDirection: "column",
         }}
       >
-        <Modal isVisible={isVisible} />
+        {isVisible && <Modal />}
         <h1>Count: {count}</h1>
         <button onClick={() => setCount(count + 1)}>Increament</button>
         <button

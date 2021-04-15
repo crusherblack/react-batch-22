@@ -1,7 +1,12 @@
 import styles from "./Card.module.css";
+import Heading from "./Heading";
 
-function Card() {
-  return <h1 className={styles.container}>ini dari card</h1>;
+function Card({ ...rest }) {
+  return (
+    <h1 className={styles.container}>
+      <Heading {...rest} />
+    </h1>
+  );
 }
 
 export default Card;

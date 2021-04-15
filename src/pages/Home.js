@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container mt-3">
+      <div className="mt-3 ">
         <Row>
           <Col
             style={{

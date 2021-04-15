@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Lenovo",
+    "price": 5000000,
+    "img": "https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 2,
+    "name": "Laptop Asus",
+    "price": 7000000,
+    "img": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGFwdG9wJTIwcm9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 3,
+    "name": "Laptop Macbook",
+    "price": 8000000,
+    "img": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFjYm9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 4,
+    "name": "Laptop ROG",
+    "price": 11000000,
+    "img": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 5,
+    "name": "Laptop Acer Predator",
+    "price": 2000000,
+    "img": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 6,
+    "name": "Laptop Burik",
+    "price": 3000000,
+    "img": "https://images.unsplash.com/photo-1542744095-291d1f67b221?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 7,
+    "name": "Laptop Toshiba",
+    "price": 1500000,
+    "img": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 8,
+    "name": "Laptop Dell",
+    "price": 4500000,
+    "img": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 9,
+    "name": "Laptop HP",
+    "price": 7800000,
+    "img": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  }
+]

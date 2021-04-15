@@ -1,14 +1,18 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Button, Modal, Row, Col } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import products from "../fakeData/products.json";
 
+import { UserContext } from "../contexts/userContext";
+
 const Home = () => {
+  const [state, dispatch] = useContext(UserContext);
   const router = useHistory();
   const [isVisible, setIsVisible] = useState(false);
 
   return (
     <>
+      <h1>{state.titleGlobal}</h1>
       <div className="mt-3 ">
         <Row>
           <Col

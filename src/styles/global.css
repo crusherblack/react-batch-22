@@ -36,3 +36,12 @@ body {
   border: none;
   height: 40px;
 }
+
+.card-product {
+  transition: 0.3s;
+}
+
+.card-product:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
